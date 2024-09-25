@@ -1,0 +1,19 @@
+#include <stdio.h>
+void main()
+{
+    int a;
+    printf("entrer numbre: ");
+    scanf("%i",&a);
+    if(a%2==0)
+    {
+       printf("pair"); 
+    }
+    
+    else 
+    {
+        printf("impere");
+    }
+       
+    
+    
+}
