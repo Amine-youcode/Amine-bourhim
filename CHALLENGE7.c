@@ -1,9 +1,10 @@
+#include <stdio.h>
 #include <math.h>
 int main() {
-  int a;
+     char a;
   printf("entrer la lettre: ");
-  scanf("%i",&a);
-  if ('A'>= a && a>='Z'){
+  scanf("%c",&a);
+  if ('A'<= a && a<='Z'){
       printf("la lettre est majiscule");
   }
   else {
